@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+       
+       .row{
+            
+            justify-content:center;
+            display: flex;
+            gap: 15px;
+           
+        }
+        .img{
+            margin-top: 60px;
+            object-fit: cover;
+            height: 340px;
+            width: 250px;
+            border-radius:20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+       
+ nav{
+    background-color:#1089ff ;
+    width:100%;
+    display: flex;
+    justify-content:end;
+    gap: 20px;
+    padding-right:15px;
+    height: 30px;
+    top: 0px;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+ }
+nav a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding:10px;
+    
+}
+nav a:hover{
+    color: rgba(50, 50, 93, 0.25);
+}
+.main{
+    margin-left:200px;
+    margin-right:200px;
+    padding-bottom: 35px;
+     border-radius: 20px;
+    background-color: white;
+    margin-top: 120px;
+}
+body{
+    background-color:rgba(123, 154, 238, 0.6);
+}
+footer{
+    text-align: center;
+    background-color:#1089ff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 100%;
+    margin-top: 20px;
+    font-size:20px ;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery </a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </div>
+    <div class="main">
+    <div class="row">
+    <div class="cart-image">
+        <a href="tom&jerry.html">
+                <img class="img" src="https://i.pinimg.com/236x/42/9b/8f/429b8f8589529ee6c3a787a9f97fbfe3.jpg" alt="tom&jerry">
+               
+            </a>
+    </div>
+       
+        <a href="mr.bean.html">
+                <img class="img" src="https://i.pinimg.com/236x/26/3c/c5/263cc5d72a3af17483b931e83a990ab0.jpg" alt="mrbean">
+        </a>
+
+        <a href="minions.html">
+        <img class="img" src="https://i.pinimg.com/564x/91/11/1b/91111bdda37cee0b9baa2c15cff9804e.jpg" alt="minions">
+        </a>
+    </div>
+
+    <div class="row">
+        <a href="oggy.html">
+        <img class="img" src="https://i.pinimg.com/236x/7f/7e/c6/7f7ec67bf5b5d452b48a32417509836a.jpg" alt="oggy">
+    </a>
+
+    <a href="spongybob.html">
+        <img class="img" src="https://i.pinimg.com/236x/5b/4f/48/5b4f48849fb2dbad953974b7e6eab74f.jpg" alt="spongybob">
+    </a>
+
+    <a href="masha.html">
+        <div class="container">
+        <img class="img" src="https://i.pinimg.com/236x/de/b5/c3/deb5c33d652c1ad81e3b0e4552a49213.jpg" alt="masha&bear">
+    </a>
+    </div>
+</div>
+<footer>
+    Designed by: Muqadas "Rahmani"
+</footer>
+</body>
+</html>
